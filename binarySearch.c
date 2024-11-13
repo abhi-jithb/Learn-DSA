@@ -48,4 +48,14 @@ If the book ID at middle matches bookToFind, you’ve found the book.
 If bookToFind is greater than the book ID at middle, update left to search the right half.
 If bookToFind is less than the book ID at middle, update right to search the left half.
 Repeat until the book is found or the range is empty (when left is greater than right).
+
+Example Output:
+If bookToFind is 402, the output will be:
+Book with ID 402 found at position 3 on the sorted shelf.
+
+If the book is not found:
+Book with ID 999 not found on the sorted shelf.
+
+Real World Anology:
+By visualizing the process as "finding a specific book on a neatly ordered shelf," it’s easier to understand how binary search quickly narrows down the search area.
 **/
