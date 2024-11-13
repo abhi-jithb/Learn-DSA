@@ -1,3 +1,4 @@
+// think of it like "picking the smallest book on a desk and placing it at the beginning," then moving to the next smallest and placing it in the next position, and so on.
 #include <stdio.h>
 
 void sortBooks(int books[], int numberOfBooks) {
