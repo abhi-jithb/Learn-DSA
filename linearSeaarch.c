@@ -24,3 +24,12 @@ int main() {
 
     return 0;
 }
+
+/**
+Explanation of Variables:
+shelf[]: Represents a shelf containing books, where each book has a unique ID.
+numberOfBooks: The total number of books on the shelf.
+bookToFind: The ID of the book you are searching for on the shelf.
+position: Used to go through each position on the shelf to see if it matches the book ID you're looking for.
+foundPosition: Holds the result. If the book is found, it stores the position; otherwise, it’s set to -1.
+**/
