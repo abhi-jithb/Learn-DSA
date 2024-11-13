@@ -1,3 +1,4 @@
+//like finding a specific "book" on a "sorted shelf" of books. Since binary search only works on sorted data, we’ll imagine the books are arranged in order by their IDs on the shelf:
 #include <stdio.h>
 
 int findBook(int sortedShelf[], int left, int right, int bookToFind) {
