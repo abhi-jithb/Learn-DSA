@@ -94,7 +94,7 @@ int main() {
     }
 }
 
-/
+/**
 Explanation of Functions:
 enqueue(int value): Adds an element to the queue if it’s not full. If the queue is empty (i.e., front == -1), it initializes the front to 0.
 dequeue(): Removes the front element from the queue and shifts the front pointer. If the queue is empty, it prints an error message.
@@ -158,4 +158,4 @@ When new people arrive, they go to the end of the line (rear of the queue).
 As people are served (dequeued), the front of the line moves forward. 
 The process of adding and removing people from the queue follows this FIFO (First In, First Out) rule.
 
-/
+**/
