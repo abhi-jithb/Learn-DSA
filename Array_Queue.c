@@ -94,12 +94,18 @@ int main() {
     }
 }
 
+
+
 /**
 Explanation of Functions:
 enqueue(int value): Adds an element to the queue if it’s not full. If the queue is empty (i.e., front == -1), it initializes the front to 0.
+
 dequeue(): Removes the front element from the queue and shifts the front pointer. If the queue is empty, it prints an error message.
+
 peek(): Displays the element at the front of the queue without removing it.
+
 displayQueue(): Displays all the elements in the queue from front to rear.
+
 Main Loop: Continuously prompts the user to choose between enqueueing, dequeueing, checking the front element, displaying the queue, or exiting.
 
 
