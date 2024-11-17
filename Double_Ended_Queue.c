@@ -1,4 +1,5 @@
 // A Double-Ended Queue (Deque) is a data structure that allows elements to be added or removed from both ends (front and rear). 
+
 //Unlike a standard queue where elements are added at the rear and removed from the front (FIFO), a deque supports both FIFO and LIFO operations.
 
 #include <stdio.h>
@@ -146,20 +147,21 @@ int main() {
 
 /**
 Explanation of Functions:
-insertFront(int value): Inserts an element at the front of the deque.
 
+insertFront(int value): Inserts an element at the front of the deque.
 If the deque is full, it won’t allow insertion.
 It handles wrapping around when the front reaches the beginning of the array.
-insertRear(int value): Inserts an element at the rear of the deque.
 
+insertRear(int value): Inserts an element at the rear of the deque.
 If the deque is full, it won’t allow insertion.
 It handles wrapping around when the rear reaches the end of the array.
+
 deleteFront(): Removes an element from the front of the deque.
-
 It checks if the deque is empty and handles wrapping around when removing from the front.
-deleteRear(): Removes an element from the rear of the deque.
 
+deleteRear(): Removes an element from the rear of the deque.
 It checks if the deque is empty and handles wrapping around when removing from the rear.
+
 displayDeque(): Displays all the elements in the deque. It handles wrapping around for both front and rear pointers.
 
 Example Output:
@@ -215,12 +217,7 @@ Choose an option:
 Enter your choice: 5
 Deque: 20
 
-
 Real-World Analogy:
 Imagine a line at a theme park where you can either join the line at the front (for quick service) or back (as a new arrival). Similarly, the deque allows insertion and deletion from both ends, which is useful in situations like maintaining a list of recent actions or handling sliding windows in algorithms.
-
-
-
-
 
 */
